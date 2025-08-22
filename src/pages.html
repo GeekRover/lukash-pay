@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <!-- font awesoem cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body class="max-w-[450px] h-full bg-[#F4F5F7] mx-auto font-out">
+    <!-- Nav bar -->
+    <nav
+      class="h-[84px] flex justify-between items-center p-5 border-b border-b-gray-300"
+    >
+      <div class="flex items-center gap-2">
+        <img src="../assets/Group.png" alt="" class="size-[48px]" />
+        <span>
+          <h1 class="text-lg font-extrabold text-[#080808]">
+            $<span>45000</span>
+          </h1>
+          <p class="text-sm text-gray-500">Available Balance</p>
+        </span>
+      </div>
+      <div>
+        <button id="gg" class="btn rounded-lg">
+          <i class="fa-solid fa-arrow-right-from-bracket rotate-180"></i> Log
+          Out
+        </button>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="mt-3 p-5">
+      <h1 class="text-2xl font-bold text-[#080808]">🔥 Welcome to Lukash!</h1>
+      <p class="text-[#08080880]">
+        Enjoy easy and convenient financial services with us. Cashout charge is
+        low and
+      </p>
+    </div>
+    <!-- add money section -->
+    <div class="grid grid-cols-3 gap-[10px] p-5">
+      <div class="h-[90px] w-[130px] border flex flex-col justify-center items-center gap-2 rounded-xl border-gray-300 hover:bg-[#E2E2E2]">
+        <img src="../assets/wallet1.png" alt="" class="size-[24px]">
+        <h1>Add Money</h1>
+      </div>
+      <div class="h-[90px] w-[130px] border flex flex-col justify-center items-center gap-2 rounded-xl border-gray-300 hover:bg-[#E2E2E2]">
+        <img src="../assets/send1.png" alt="" class="size-[24px]">
+        <h1>Cashout</h1>
+      </div>
+      <div class="h-[90px] w-[130px] border flex flex-col justify-center items-center gap-2 rounded-xl border-gray-300 hover:bg-[#E2E2E2]">
+        <img src="../assets/money1.png" alt="" class="size-[24px]">
+        <h1>Transfer Money</h1>
+      </div>
+      <div class="h-[90px] w-[130px] border flex flex-col justify-center items-center gap-2 rounded-xl border-gray-300 hover:bg-[#E2E2E2]">
+        <img src="../assets/bonus1.png" alt="" class="size-[24px]">
+        <h1>Get Bonus</h1>
+      </div>
+      <div class="h-[90px] w-[130px] border flex flex-col justify-center items-center gap-2 rounded-xl border-gray-300 hover:bg-[#E2E2E2]">
+        <img src="../assets/purse1.png" alt="" class="size-[24px]">
+        <h1>Pay Bill</h1>
+      </div>
+      <div class="h-[90px] w-[130px] border flex flex-col justify-center items-center gap-2 rounded-xl border-gray-300 hover:bg-[#E2E2E2]">
+        <img src="../assets/transaction1.png" alt="" class="size-[24px]">
+        <h1>Transactions</h1>
+      </div>
+    </div>
+
+    <!-- js actions -->
+     <script src="./home.js"></script>
+  </body>
+</html>
